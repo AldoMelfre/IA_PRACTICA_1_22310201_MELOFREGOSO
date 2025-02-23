@@ -6,6 +6,10 @@
 #Literales de cadena con caracter de escape \  (backslash), con esto no generamos errores al imprimir comillas dobles o simples en una cadena de texto.
 print("Me gusta \"Monty Python\"")
 
+#Apostrofe con caracter de escape
+print('I\'m Aldo Melo.')
+
+
 print('\n---------------------\n')
 
 #Literales enteros
@@ -32,3 +36,17 @@ print(3e8) #Flotante
 
 print('\n---------------------\n')
 
+#Booleanos, Los literales booleanos son True y False, que representan los valores verdadero y falso, respectivamente.
+
+#Si true es mayor a false, entonces imprime True, si true es menor a false, entonces imprime False
+print(True > False)
+print(True < False)
+
+#Escriba un fragmento de código de una línea, utilizando la función print(), así como los caracteres de nuevalínea y de escape, para que coincida con el resultado esperado que se muestra en la salida. 
+# "Estoy"
+# ""aprendiendo""
+# """Python"""
+print('\"Estoy\"\n\"\"aprendiendo\"\"\n\"\"\"Python\"\"\"')
+ 
+
+#Existe un literal especial más utilizado en Python: el literal None. Este literal es llamado un objeto de NoneType, y puede ser utilizado para representar la ausencia de un valor. Pronto se hablará más acerca de ello.
