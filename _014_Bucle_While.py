@@ -13,7 +13,7 @@ while number >= 0:
     number = int(input("Ingresa un número entero o escribe un negativo para detener: "))
     print("Número ingresado:", number)
 
-print('\n---------------------\n')2
+print('\n---------------------\n')
 
 
 
