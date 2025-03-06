@@ -60,3 +60,12 @@ else:
     print("No has ingresado ningún número.")
 
 print('\n---------------------\n')  
+
+
+#Ejercicio 1
+while True:
+    palabra = input("Ingresa una palabra: ")
+    if palabra == "chupacabra":
+        print("Has dejado el bucle con éxito.")
+        break
+
