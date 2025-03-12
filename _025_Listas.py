@@ -26,3 +26,25 @@ print("\n----------------------\n")
 #Si queremos ver toda la lista simplemente escribimos el nombre de la lista:
 print(bebidas) #['Sprite', 'Pepsi', 'Sprite']
 
+
+print("\n----------------------\n")
+
+#ELIMINAR LISTAS 
+#Para eliminar un elemento de una lista, podemos usar la palabra clave del seguida del nombre de la lista y el índice del elemento que queremos eliminar
+numbers = [1, 2, 3, 4, 5]
+del numbers[1]
+print(len(numbers))
+print(numbers)
+
+print("\n----------------------\n")
+
+#Indices negativos
+#También podemos acceder a los elementos de una lista utilizando índices negativos.
+#Los índices negativos cuentan desde el final de la lista.
+#Por ejemplo, para acceder al último elemento de la lista, podemos usar el índice -1:
+numbers = [1, 2, 3, 4, 5]
+print(numbers[-1]) #5
+#Para acceder al penúltimo elemento de la lista, usamos el índice -2:
+print(numbers[-2]) #4
+#Y asi consecutivamente.
+print("\n----------------------\n")
