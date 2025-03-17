@@ -25,22 +25,22 @@ print("\n----------------------\n")
 #Escribe una función llamada maximo que tome tres números como argumentos y devuelva el mayor de ellos. Usa la función si es necesario.
 #Ejemplo
 print("Ingresa un valor: ")
-a = int(input())
+num1 = int(input())
 
 print("Ingresa un valor: ")
-b = int(input())
+num2 = int(input())
 
 print("Ingresa un valor: ")
-c = int(input())
+num3 = int(input())
 
 #definimos la funcion maximo
 def maximo(a, b, c):
-    if a > b and a > c:
+    if num1 > num2 and num1 > num3:
         return a
-    elif b > a and b > c:
-        return b
+    elif num2 > num1 and num2 > num3:
+        return num2
     else:
-        return c
+        return num3
     
 #llamamos a la funcion maximo
-print("El numero mayor es: ", maximo(a, b, c))#El numero mayor es:  5
+print("El numero mayor es: ", maximo(num1, num2, num3))#El numero mayor es:  5
